@@ -55,11 +55,11 @@ public class GuessRunner {
 
         FileWriter fileWriter;
         try {
-            fileWriter = new FileWriter("result_knuth.csv",true);
-            fileWriter.append("target,first guess,number of guess,guesses \n");
-            fileWriter.flush();
-            fileWriter.close();
-            for (int i = 1000; i < 10000; i++) {
+//            fileWriter = new FileWriter("result_knuth.csv",true);
+//            fileWriter.append("target,first guess,number of guess,guesses \n");
+//            fileWriter.flush();
+//            fileWriter.close();
+            for (int i = 1538 ; i < 10000; i++) {
                 fileWriter = new FileWriter("result_knuth.csv",true);
                 int guess_cnt = 0;
                 int target = i;
